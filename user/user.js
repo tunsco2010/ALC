@@ -5,6 +5,7 @@ var UserSchema = new mongoose.Schema({
   password: String
 });
 
-mongoose.model('User', UserSchema);
+var User = mongoose.model('User', UserSchema);
+module.exports = User;
 
-module.exports = mongoose.model('User');
+

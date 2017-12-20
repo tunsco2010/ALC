@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "jasmine tests/"
+    "test": "jasmine tests/",
+    "dev": "nodemon server.js"
   },
   "keywords": [
     "express",
@@ -19,18 +20,17 @@
     "body-parser": "^1.17.1",
     "dotenv": "^4.0.0",
     "express": "^4.15.2",
+    "mongodb": "^3.0.0-rc0",
     "mongoose": "^4.9.6"
   },
   "directories": {
     "test": "tests"
   },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/andela-bolajide/UserManager.git"
+  "devDependencies": {
+    "nodemon": "^1.13.3"
   },
   "bugs": {
-    "url": "https://github.com/andela-bolajide/UserManager/issues"
+    "url": "https://github.com/tunsco2010/Learning/issues"
   },
-  "homepage": "https://github.com/andela-bolajide/UserManager#readme"
+  "homepage": "https://github.com/tunsco2010/Learning#readme"
 }
