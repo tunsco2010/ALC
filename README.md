@@ -17,7 +17,7 @@ This application was developed using [ExpressJS](http://expressjs.com/). MongoDB
 * Create a `.env` file in your root directory as described in `.env.sample` file. Variables such as DB_URL (which must be a mongoDB URL) and PORT are defined in the .env file and it is essential you create this file before running the application.
 ```
 PORT=3000
-DB_URL='mongodb://john:doe@localhost:27017/databaseName'
+DB_URL='mongodb://127.0.0.1:27017/test'
 ```
 * After this, you can then start the server with the command: `npm start`.
 
@@ -109,7 +109,3 @@ password: janedoe
 }
 ```
 
-
-
-### Author
-**Olajide Bolaji 'Nuel** - Software Developer at Andela
